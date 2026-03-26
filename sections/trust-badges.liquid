@@ -1,0 +1,17 @@
+<section class="section">
+  <div class="container card trust">
+    <p>{{ section.settings.badge_1 }} • {{ section.settings.badge_2 }} • {{ section.settings.badge_3 }}</p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Trust badges",
+  "settings": [
+    { "type": "text", "id": "badge_1", "label": "Badge 1", "default": "Secure Checkout" },
+    { "type": "text", "id": "badge_2", "label": "Badge 2", "default": "Cruelty Free" },
+    { "type": "text", "id": "badge_3", "label": "Badge 3", "default": "Dermatologist Tested" }
+  ],
+  "presets": [{ "name": "Trust badges" }]
+}
+{% endschema %}

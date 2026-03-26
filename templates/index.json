@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "hero": { "type": "hero-banner", "settings": {} },
+    "collections": {
+      "type": "featured-collections-grid",
+      "settings": { "heading": "Featured Collections" },
+      "blocks": {
+        "c1": { "type": "collection", "settings": {} },
+        "c2": { "type": "collection", "settings": {} },
+        "c3": { "type": "collection", "settings": {} }
+      },
+      "block_order": ["c1", "c2", "c3"]
+    },
+    "best_sellers": { "type": "best-sellers", "settings": {} },
+    "benefits": {
+      "type": "usp-benefits",
+      "settings": {},
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Barrier-friendly formulas", "text": "Hydration-first formulas for daily comfort." } },
+        "b2": { "type": "benefit", "settings": { "title": "Clinically inspired", "text": "Ingredients selected for proven skin goals." } },
+        "b3": { "type": "benefit", "settings": { "title": "Fast routines", "text": "AM + PM steps that fit into busy schedules." } }
+      },
+      "block_order": ["b1", "b2", "b3"]
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "settings": {},
+      "blocks": {
+        "t1": { "type": "review", "settings": { "quote": "My skin is visibly brighter in 2 weeks.", "author": "Sarah M." } },
+        "t2": { "type": "review", "settings": { "quote": "No irritation and my skin stays hydrated all day.", "author": "Ibrahim R." } },
+        "t3": { "type": "review", "settings": { "quote": "The cleanser and SPF combo is perfect.", "author": "Noor A." } }
+      },
+      "block_order": ["t1", "t2", "t3"]
+    },
+    "trust": { "type": "trust-badges", "settings": {} },
+    "newsletter": { "type": "newsletter-signup", "settings": {} }
+  },
+  "order": ["hero", "collections", "best_sellers", "benefits", "testimonials", "trust", "newsletter"]
+}

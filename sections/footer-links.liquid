@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="container">
+    <h3>{{ shop.name }}</h3>
+    <div class="footer__links">
+      {% for link in linklists.footer.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+    <p>© {{ 'now' | date: '%Y' }} {{ shop.name }}. All rights reserved.</p>
+  </div>
+</footer>
+
+{% schema %}
+{ "name": "Footer", "settings": [] }
+{% endschema %}
