@@ -1,0 +1,18 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Digital Heroes Starter",
+    "theme_version": "1.0.0",
+    "theme_author": "Digital Heroes Trainee"
+  },
+  {
+    "name": "Brand",
+    "settings": [
+      { "type": "color", "id": "color_primary", "label": "Primary", "default": "#f5f7f2" },
+      { "type": "color", "id": "color_secondary", "label": "Secondary", "default": "#1e2a24" },
+      { "type": "color", "id": "color_accent", "label": "Accent", "default": "#e98e5b" },
+      { "type": "font_picker", "id": "heading_font", "label": "Heading font", "default": "poppins_n6" },
+      { "type": "font_picker", "id": "body_font", "label": "Body font", "default": "inter_n4" }
+    ]
+  }
+]
